@@ -13,12 +13,6 @@ and ruby's huge and slow test/unit.
 * Allows test/unit to be required, firing up an autorunner.
 * Incompatible at the runner level. Does not replicate test/unit's internals.
 
-== HOW TO USE:
-
-+ sudo gem install minitest_tu_shim
-+ sudo use_minitest yes
-+ there is no step 3.
-
 == REQUIREMENTS:
 
 + minitest
@@ -26,7 +20,7 @@ and ruby's huge and slow test/unit.
 
 == INSTALL:
 
-+ sudo gem install minitest_tu_shim
++ Add `gem 'minitest-display'` to your Gemfile.
 
 == LICENSE:
 
