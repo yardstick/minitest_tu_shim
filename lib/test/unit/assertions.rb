@@ -43,11 +43,12 @@ module Test::Unit
     end
 
     def build_message(user_message, template_message, *args)    # 2009-06-01
-      self.class.tu_deprecation_warning :build_message
+      #self.class.tu_deprecation_warning :build_message
       user_message ||= ''
       user_message += ' ' unless user_message.empty?
       msg = template_message.split(/<\?>/).zip(args.map { |o| o.inspect })
       user_message + msg.join
     end
+
   end
 end
