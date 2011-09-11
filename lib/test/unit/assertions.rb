@@ -1,4 +1,5 @@
 require 'minitest/unit'
+require 'minitest/spec'
 require 'test/unit/deprecate'
 
 module Test; end
