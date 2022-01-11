@@ -7,7 +7,7 @@ module Test::Unit
   AssertionFailedError = ::MiniTest::Assertion
 
   class TestCase < ::MiniTest::Spec
-    VERSION = '1.3.2'
+    VERSION = '1.3.2.1'
 
     tu_deprecate :method_name, :name # 2009-06-01
 
